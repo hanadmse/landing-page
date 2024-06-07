@@ -76,7 +76,8 @@ img {
     font-size: 15px;
 }
 
-body {
+html, body {
+    height: 100%;
     margin: 0px;
     display:flex;
     flex-direction: column;
@@ -91,7 +92,6 @@ body {
     margin-right: 50px;
     flex-shrink:0;
 }
-
 
 .box {
     background-color: white;
